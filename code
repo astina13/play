@@ -1,0 +1,6 @@
+<html>
+<body>
+<p> The fundamental syntactic units of HTML are called tags. In general, tags are used to specify categories of content.<br> For each kind of tag, a browser has default presentation specifications for the specified content. The syntax of a tag is the tag`s name surrounded by angle brackets (< and >). <br>Tag names must be written in all lowercase letters. Most tags appear in pairs: an opening tag and a closing tag.
+</p>
+</body>
+</html>
