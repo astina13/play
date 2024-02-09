@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Theorem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+        }
 
+        theorem {
+            font-weight: bold;
+            color: darkblue;
+        }
+
+        proof {
+            margin-left: 20px;
+            color: green;
+        }
+
+        square {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <theorem>
+        Theorem: Every prime number (greater than 2) modulo 4 can be written in the form 4n + 1 or 4n + 3.
+    </theorem>
+
+    <proof>
+        Proof: Any number p when divided by 4 leaves remainder 0, 1, 2, or 3. Therefore, the number has the form 4n, 4n + 1, 4n + 2, or 4n + 3.
+        Since 4n and 4n + 2 are even, so these cannot be a form of a prime number which is an odd number (except 2).
+        This proves the theorem.
+        <square>◻</square>
+    </proof>
+</body>
+</html>
